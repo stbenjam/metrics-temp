@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test -e plugins/metrics/.git)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,27 +1,17 @@
 {
-  "name": "{{MARKETPLACE_NAME}}",
-  "owner": "{{OWNER_NAME}}",
+  "name": "metrics-temp",
+  "owner": "stbenjam",
   "plugins": [
     {
-      "name": "example-plugin",
-      "description": "Example plugin demonstrating command structure",
+      "name": "metrics",
+      "description": "TODO: Add description",
       "version": "0.0.1",
-      "commands": [
-        {
-          "name": "hello",
-          "description": "Say hello to someone",
-          "synopsis": "/example-plugin:hello [name]",
-          "argument_hint": "[name]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Example Skill",
-          "id": "example-skill",
-          "description": "Demonstrates how to create a task-specific skill for complex operations"
-        }
-      ],
-      "has_readme": true
+      "commands": [],
+      "skills": [],
+      "hooks": [],
+      "agents": [],
+      "has_readme": true,
+      "has_mcp": false
     }
   ]
 }
